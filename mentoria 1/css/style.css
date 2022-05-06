@@ -1,0 +1,44 @@
+body {
+  background-image: url(../img/pexels-photo-2447036_lixo_praia_Indonesia-scaled.jpeg);
+  background-size: 1360px;
+  background-repeat: no-repeat;
+}
+/*criando o contexto de estilo nativo*/
+h1 {
+  font-size: 18px;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*criando um estilo de classe*/
+.cab_especial {
+  background-color: rgb(36, 117, 150);
+  font-size: 16px;
+  font-weight: bolder;
+  color: rgb(184, 0, 0);
+}
+
+.formatacao_campos {
+  background-color: rgb(208, 241, 226);
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(103, 2, 2);
+}
+
+/*criando um estilo para id*/
+#cadastro {
+  color: blueviolet;
+  font-size: 12px;
+}
+
+/* criando um padrão de tamanho para os campos do formulário*/
+
+.campo_nome {
+  width: 150px;
+  background-color: #ffffff;
+}
+
+.campo_email {
+  width: 150px;
+  background-color: #ffffff;
+}
